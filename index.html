@@ -5,35 +5,107 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Brigaderia Gourmet</title>
-    <link rel="stylesheet" href="./assets/css/reset.css">
-    <link rel="stylesheet" href="./assets/css/cabecalho/cabecalho.css">
+    <title>Brigaderia Gourmet - Doces by Val</title>
+
+    <link rel="stylesheet" href="./assets/css/estilos.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Passions+Conflict&family=Quicksand&family=Roboto&family=Satisfy&family=Source+Serif+Pro&display=swap"
+        rel="stylesheet">
+
 </head>
 
 <body>
     <header class="cabecalho">
-        <div class="cabecalho__logo">
-            <img src="./assets/pics/logo-by-val-bg.png" alt="">
-            <h1>Doces by Val</h1>
-        </div>
-        <div class="cabecalho__contato">
-            <a href="./assets/#">Home</a>
-            <a href="./assets/telas/contato.html">Fale conosco</a>
+        <div class="banner__cabecalho">
+            <div class="banner__cabecalho--logo">
+                <img src="./assets/pics/logo-by-val-bg.png" alt="">
+                <h1>Doces by Val</h1>
+            </div>
+            <nav class="banner__cabecalho--nav">
+                <a href="./assets/#">Home</a>
+                <a href="./assets/telas/contato.html">Fale conosco</a>
+            </nav>
+            <div class="banner__cabecalho--video">
+                <video autoplay loop muted="true" id="video" src="./assets/medias/videos/Chocolate - 98283.mp4"
+                    type="video/mp4"></video>
+            </div>
         </div>
     </header>
-    <div class="cabecalho__banner">
-        <video autoplay loop muted="true" id="video" src="./assets/medias/videos/Chocolate - 98283.mp4" type="video/mp4"></video>
-    </div>
     <main class="container">
+        <section class="apresentacao">
+            <article class="breve-resumo">
+                <p class="breve-resumo--descritivo">A<strong class="enfatico"> Doces by Val</strong> tem o privilégio em
+                    poder levar ao seu público,
+                    produtos elaborados com mais alta qualidade e dedicação, onde utilizamos itens de primeira
+                    linha, frutas selecionadas e fresquinhas.<br><br>Nossas receitas são produzidas de maneira
+                    artesanal, onde o principal ingrediente é o
+                    <strong class="enfatico">amor</strong> pelo que fazemos.
+                </p>
+            </article>
+            <aside class="breve-resumo--foto">
+                <img src="./assets/pics/decorating-delicious-homemade-eclairs-with-chocolate-and-peanuts.jpg" alt="">
+            </aside>
+        </section>
         <section class="produtos">
-            <h2>produtos</h2>
+            <h2 class="titulo__secao">Nossas especialidades</h2>
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+                        <img src="./assets/pics/bicho-de-pe-bg.png" alt="">
+                        <h3>Bicho de pé</h3>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./assets/pics/brigadeiro-bg.png" alt="">
+                        <h3>Brigadeiros</h3>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./assets/pics/leite-ninho-bg.png" alt="">
+                        <h3>Brigadeiro com leite ninho</h3>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./assets/pics/pistache-bg.png" alt="">
+                        <h3>Gourmet</h3>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./assets/pics/crispy-removebg-preview.png" alt="">
+                        <h3>Crispy</h3>
+                    </div>
+                    ...
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+
+                <!-- If we need navigation buttons
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div> -->
+
+                <!-- If we need scrollbar -->
+                <!-- <div class="swiper-scrollbar"></div> -->
+            </div>
+        </section>
+        <section class="receitas">
+            <h3 class="titulo__secao">Nossas receitas</h3>
+            <div class="container__receitas">
+                <div class="receitas__doces">
+                    <img src="./assets/pics/brigadeiro-frutas.jpg" alt="">
+                </div>
+                <div class="receitas__salgados">
+                    <img src="./assets/pics/Salgados.jpg" alt="">
+                </div>
+            </div>
         </section>
     </main>
     <footer></footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./assets/js/especialidades.js"></script>
 </body>
+
 </html>

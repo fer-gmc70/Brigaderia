@@ -1,0 +1,39 @@
+.container{
+    width: 100%;
+    height: 100vw;
+    position: absolute;
+    margin-top: 20%;
+}
+
+.apresentacao{
+    display: grid;
+    grid-template-columns: 2fr 1fr auto;
+    grid-template-rows: auto auto auto;
+    grid-gap: 2.6em;
+}
+
+.breve-resumo {
+    grid-column: 1/2;
+    grid-row: 1;
+    width: 100%;
+    text-align: justify;
+    margin: 0 2.2em 0 1.2em;
+}
+
+.breve-resumo--descritivo{
+    font-family: var(--fonte-textoDescricao);
+    font-size: 1.3em;
+
+}
+
+.breve-resumo--foto img{
+    grid-column: 3;
+    grid-row: 1;
+    width: 100%;
+}
+
+.produtos{
+    grid-row:2/3;
+
+}
+
