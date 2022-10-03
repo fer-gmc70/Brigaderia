@@ -1,0 +1,58 @@
+.rodape{
+    position: absolute;
+    margin-top: 273vh;
+    
+}
+
+.fornecedores h3{
+    padding: 1.3em 0 0 .5em;
+    font-weight: 500;
+    font-family: var(--estiloFonte-TituloSecundario);
+    font-size: 1.2em;
+}
+.fornecedores__logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 5vh;
+    flex-wrap: wrap;
+    margin-top: 1.3em;
+    
+}
+
+
+.fornecedores img{
+    width: 8%;
+}
+
+.redesSociais {
+    grid-column: 1/2;
+    grid-row: 2;
+    font-family: var(--estiloFonte-TituloSecundario);
+    font-size: 1.2em;
+    padding: 1.3em 0 0 .5em;
+}
+.redesSociais img{
+    width:3%;
+    padding: 1em 4em 0 1em;
+}
+
+.contato{
+    position: fixed;
+    left:80%;
+    top: 90%;
+    z-index: 2;
+    
+}
+
+.contato a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1.2em;
+
+}
+.contato img{
+    width:20%
+}

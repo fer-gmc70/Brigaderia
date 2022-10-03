@@ -126,14 +126,16 @@
 
 @media screen and (min-width: 1180px) {
     .swiper {
-        width: 600px;
+        max-width: 600px;
         max-height: 300px;
         box-sizing: border-box;
+        left:0%;
+        right: 0%;
         overflow: hidden;
     }
 
     .swiper-slide {
-        width: 5%;
+        width: 13%;
         height: 20vh;
     }
     .swiper-slide h3 {
@@ -161,6 +163,6 @@
 
     .swiper-pagination {
         position: initial;
-        margin: .7em 0;
+        margin: 1.2em 0;
     }
 }
