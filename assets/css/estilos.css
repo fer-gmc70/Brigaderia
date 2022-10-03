@@ -12,8 +12,9 @@
     --cor-fonteTituloPrincipal:;
     --cor-fonteTituloSecundario:;
    
-    --cor-bgPrincipal:;
-    --cor-bgSecundario:;
+    --cor-bgPrincipal:#f2eaed;
+    --cor-bgSecundario:#b5c1b4;
+    --cor-bgSecao:#f1f3f2;
 
     /* Estilos de fontes para títulos de página e textos descritivos */
     --estiloFonte-Principal:'Roboto', sans-serif;
@@ -41,4 +42,8 @@
     font-family: var(--estiloFonte-TituloSecundario);
     font-weight: 650;
     font-size: 2.5rem;
+}
+
+body{
+    background: var(--cor-bgPrincipal);
 }
