@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brigaderia Gourmet - Receitas Salgadas</title>
+    <link rel="stylesheet" href="../css/estilos.css">
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script>
+    $(function(){
+    $("#cabecalho-fixo").load("../css/cabecalho-fixo.html");
+    });
+    </script>
+</head>
+
+<body>
+    <header id="cabecalho-fixo"></header>
+
+        <main class="container">
+            <h2 class="localizacao__titulo">Nossa localização</h2>
+            <div id="mapas"></div>
+    
+            <section class="formulario">
+                <h2>Contate-nos</h2>
+                <p>Envie-nos sua mensagem que em breve entraremos em contato</p>
+                <form id="formulario__contato" action="">
+                    <fieldset id="fieldset__contato">
+                        <input type="text" name="nome" id="nome" placeholder="Informe seu nome..." required>
+                        <input type="tel" name="celular" id="numeroCelular" placeholder="Informe seu celular..." required
+                            minlength="11">
+                        <input type="checkbox" name="whatsapp" id="whatsapp" placeholder="WhatsApp">WhatsApp
+                        <input type="email" name="email" id="email" placeholder="Informe seu email..." required>
+                        <textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Digite sua mensagem..."
+                            required></textarea>
+                    </fieldset>
+                    <!-- <input id="enviarMensagem" type="submit" value="Enviar mensagem"> -->
+                    <button type="submit" id="enviarMensagem">Enviar mensagem</button>
+                </form>
+            </section>
+        </main>
+    </body>
+</html>

@@ -4,6 +4,7 @@
 @import url("./main/receitas.css");
 @import url("./main/swiper.css");
 @import url("./rodape/rodape.css");
+@import url("./cabecalho/cabecalho-fixo.css");
 
 :root{
    
@@ -12,10 +13,13 @@
     --cor-fonteSecundaria:;
     --cor-fonteTituloPrincipal:;
     --cor-fonteTituloSecundario:;
+    --cor-titulo-swiper:#53c0f0;
    
-    --cor-bgPrincipal:#f2eaed;
-    --cor-bgSecundario:#b5c1b4;
-    --cor-bgSecao:#f1f3f2;
+    --cor-bgPrincipal:#5c3d46;
+    --cor-bgSecundario:#5c868d;
+    --cor-bgSecaoPrimaria:#99bfaa;
+    --cor-bgSecaoSecundaria:#c8d6ca;
+    --cor-bgRodape:#e7f5de;
 
     /* Estilos de fontes para títulos de página e textos descritivos */
     --estiloFonte-Principal:'Roboto', sans-serif;
@@ -45,6 +49,6 @@
     font-size: 2.5rem;
 }
 
-body{
+/* body{
     background: var(--cor-bgPrincipal);
-}
+} */
