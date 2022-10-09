@@ -1,11 +1,14 @@
 # Brigaderia
 ## Site em desenvolvimento
 
-Site institucional de uma loja de brigadeiros gourmet artsenais ficticia desenvolvido aplicando tecnicas, conforme abaixo:
+Site institucional de uma loja de brigadeiros artesanais (gourmet) fictícia desenvolvido aplicando técnicas, conforme abaixo:
 
-* flexbox;
+
+* Flexbox;
 * BEM;
-* swiper;
+* Swiper;
+* Validação de formulários;
+* Responsividade (layouts);
 
 
 
