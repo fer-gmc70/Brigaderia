@@ -10,11 +10,5 @@ const swiper = new Swiper('.swiper', {
         el: '.swiper-pagination',
         type: 'bullets',
     },
-    //cardsEffect: {
-    //    perSlideOffset: 8,
-    //    perSlideRotate: true,
-    //    slideShadows: false,
 
-        // ...
-    //},
 });
